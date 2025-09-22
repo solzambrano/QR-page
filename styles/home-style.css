@@ -1,0 +1,37 @@
+*{
+margin:0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: 1000px;
+    justify-content: center;
+
+}
+.container_image{
+width: 90%;
+  margin: auto;
+  display: block;
+  padding: 25px 0px;
+}
+.image_qr{
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: white;
+     box-shadow: 0 8px 24px rgba(27, 79, 32, 0.46);
+    width: 60%;
+    border-radius: 35px;
+}
+.attribution{
+margin: 10px 90px;
+}
