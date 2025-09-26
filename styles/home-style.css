@@ -61,7 +61,7 @@ body{
 
 }
 .container_image{
-    width: 90%;
+    width: 85%;
     margin: auto;
     display: block;
     padding: 25px 0px;
@@ -76,11 +76,11 @@ body{
     align-self: center;
     background-color: white;
      box-shadow: 0 8px 24px rgba(27, 79, 32, 0.46);
-    width: 50%;
+    width: 40%;
     border-radius: 35px;
 }
 .attribution{
-    margin: 10px 70px;
+    margin: 5px 25px;
 }
 .title{
     margin-bottom: 20px;
@@ -96,6 +96,6 @@ body{
   margin-bottom:35px
 }
 .indent{
- text-indent: 20px;
+ text-indent: 15px;
 }
 }
