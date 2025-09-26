@@ -8,10 +8,12 @@ body{
 }
 
    .container{
+    width: 375px;
     display: flex;
     margin: auto;
     height: 100vh;
     justify-content: center;
+    background: aliceblue;
 
 }
 .container_image{
@@ -26,6 +28,7 @@ body{
 }
 .content{
     display: flex;
+    width: 90%;
     flex-direction: column;
     align-self: center;
     background-color: white;
@@ -33,17 +36,18 @@ body{
     border-radius: 35px;
 }
 .attribution{
-    margin: 10px 40px;
+    width: 85%;
+    margin:auto
 }
 .title{
     margin-bottom: 20px;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     display: inline-block;
 }
 .paragraph{
     color: gray;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600; 
   text-align: center;
   margin-bottom:35px
@@ -56,7 +60,8 @@ body{
 .container{
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 900px;
+    background-color:aliceblue;
     justify-content: center;
 
 }
